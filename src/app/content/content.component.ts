@@ -26,7 +26,7 @@ export class ContentComponent {
 		    }).then(
 		    response => {
 		        this.axiosService.setAuthToken(response.data.token);
-		        this.componentToShow = "messages";
+		        this.componentToShow = "derush";
 		    }).catch(
 		    error => {
 		        this.axiosService.setAuthToken(null);
@@ -47,7 +47,7 @@ export class ContentComponent {
 		    }).then(
 		    response => {
 		        this.axiosService.setAuthToken(response.data.token);
-		        this.componentToShow = "messages";
+		        this.componentToShow = "derush";
 		    }).catch(
 		    error => {
 		        this.axiosService.setAuthToken(null);
